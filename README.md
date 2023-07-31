@@ -19,8 +19,9 @@ You can then solve for the optical eigenmodes of the system (e.g., a waveguide c
 
 ### Differential matrix equation solver
 You can add, also, arbitrary light sources to the grid, solve the corresponding matrix equation, and step the phase to see the light propagating through your system. E.g., see ``/demos/unidirectionalGaussianSourceDemo.m``
+
 An astute observer may consider solving for the modes of a waveguide and then using these as light sources for a larger system...! 
-As this is simply a general solver, the limit is your time and creativity.
+As this is simply a general solver, the limit is your time and creativity (and ability to compose the correct equations; but the two main scenarios of interest have already been discussed).
 
 ### Installation
 Just install Matlab (after getting a license...) and you're good to clone! Get started in the ``/demos`` folder.
