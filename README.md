@@ -1,12 +1,12 @@
 # maxwell_fdfd
 
-### Two point sources
+## Two point sources
 ![](https://github.com/kjabon/maxwell_fdfd/blob/main/demo6.gif)
 
-### Gaussian source
+## Gaussian source
 ![](https://github.com/kjabon/maxwell_fdfd/blob/main/demo8.gif)
 
-### Summary
+## Summary
 A general matrix equation solver for 2D Yee grids, supporting perfectly matched layers (PMLs).
 
 In principle this could be applied to any differential matrix equation, e.g. the heat equation.
