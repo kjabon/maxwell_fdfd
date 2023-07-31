@@ -14,7 +14,7 @@ In principle this could be applied to any differential matrix equation, e.g. the
 Here we apply it to Maxwell's equations in the frequency domain (hence, finite difference frequency domain, or FDFD). See Raymond Rumpf's educational resources on computational electromagnetics if you need a refresher.
 
 ### Mode solver
-You can add arbitrary materials to the grid, e.g. a Si waveguide or lens (with the correct relative permittivity $\epsilon_r$ and permeability $\mu_r$ at their respective grid points). 
+You can add arbitrary materials to the grid, e.g. a Si waveguide or lens (with the correct relative permittivity $\epsilon_r$ and permeability $\mu_r$ at their respective component grid points). 
 You can then solve for the optical eigenmodes of the system (e.g., a waveguide). E.g., see ``/demos/scalarModes2D.m``.
 
 ### Full matrix equation solver
