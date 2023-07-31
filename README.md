@@ -15,7 +15,7 @@ Here we apply it to Maxwell's equations in the frequency domain (hence, finite d
 
 ### Mode solver
 You can add arbitrary materials to the grid, e.g. a Si waveguide or lens (with the correct relative permittivity $\epsilon_r$ and permeability $\mu_r$ at their respective component grid points). 
-You can then solve for the optical eigenmodes of the system (e.g., a waveguide). E.g., see ``/demos/scalarModes2D.m``.
+You can then solve for the optical eigenmodes of the system (e.g., a waveguide cross section). E.g., see ``/demos/scalarModes2D.m``.
 
 ### Full matrix equation solver
 You can add, also, arbitrary light sources to the grid, solve the corresponding matrix equation, and step the phase to see the light propagating through your system. E.g., see ``/demos/unidirectionalGaussianSourceDemo.m``
