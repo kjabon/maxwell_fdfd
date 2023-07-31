@@ -1,0 +1,24 @@
+% Note on notation/ convention:
+
+% In all cases...
+
+% S points correspond to E points
+% T points correspond to H points
+
+% antiSymS =     PEC ending on an E point
+% symS =         PMC ending on an E point
+% antiSymT =     PMC ending on an H point
+% symT =         PEC ending on an H point
+
+
+
+% We could define the following as well, 
+% but currently DO NOT consider this case:
+
+% S points correspond to H points
+% T points correspond to E points
+
+% antiSymS =     PMC ending on an H point
+% symS =         PEC ending on an H point
+% antiSymT =     PEC ending on an E point
+% symT =         PMC ending on an E point
