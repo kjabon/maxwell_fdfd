@@ -7,8 +7,10 @@
 ![](https://github.com/kjabon/maxwell_fdfd/blob/main/demo8.gif)
 
 ### Summary
-A general matrix equation solver for 2D Yee grids, supporting perfectly matched layers (PMLs)
+A general matrix equation solver for 2D Yee grids, supporting perfectly matched layers (PMLs).
+
 In principle this could be applied to any differential matrix equation, e.g. the heat equation.
+
 Here we apply it to Maxwell's equations in the frequency domain (hence, finite difference frequency domain, or FDFD).
 
 You can add arbitrary materials to the grid, e.g. a Si waveguide or lens (with the correct relative permittivity $\epsilon_r$ and permeability $\mu_r$ at their respective grid points). See Raymond Rumpf's educational resources on computational electromagnetics if you need a refresher.
